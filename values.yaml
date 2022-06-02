@@ -1,0 +1,9 @@
+replicaCount: 1
+
+image:
+  repository: sarvananaa123/myapp
+service:
+  type: LoadBalancer
+  port: 8080
+
+run: java
