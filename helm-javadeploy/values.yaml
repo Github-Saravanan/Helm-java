@@ -2,6 +2,7 @@ replicaCount: 1
 
 image:
   repository: sarvananaa123/sample-java
+  tag: "10"
 service:
   type: LoadBalancer
   port: 8080
