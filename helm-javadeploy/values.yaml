@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: sarvananaa123/sample-java
-  tag: "11"
+  repository: aksdeploy.azurecr.io/javaappln
+  tag: "12"
 service:
   type: LoadBalancer
   port: 8080
