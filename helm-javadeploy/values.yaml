@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: aksdeploy.azurecr.io/javaappln
+  repository: sarvananaa123/sample-java
   tag: "12"
 service:
   type: LoadBalancer
